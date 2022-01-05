@@ -64,7 +64,6 @@ img {
 }
 
 .products {
-	background: red;
 	width: 100%;
 	margin-left: 2rem;
 	display: grid;
@@ -79,4 +78,65 @@ img {
 	opacity: 1;
 	width: 200px;
 	height: 300px;
+}
+
+.img-product {
+	width: 170px;
+	height: 170px;
+	border: 1px solid #000000;
+	opacity: 1;
+	margin: 10px 0 0 13px;
+}
+
+h1 {
+	margin-left: 13px;
+	font: normal normal bold 12px/15px Lato;
+	letter-spacing: 0px;
+}
+
+h2 {
+	margin-left: 13px;
+	font: normal normal normal 12px/15px Lato;
+	letter-spacing: 0px;
+}
+
+.buy {
+	width: 170px;
+	height: 26px;
+	background: #c4c4c4 0% 0% no-repeat padding-box;
+	opacity: 1;
+	margin: 0 auto;
+	text-align: center;
+	font: normal normal bold 14px/17px Lato;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+ul {
+	list-style: none;
+}
+
+#menu li > a {
+	background-color: grey;
+	color: white;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	min-width: 100px;
+}
+
+#menu li > a:hover {
+	color: #000;
+	background-color: #eaeaea;
+}
+#menu > li {
+	float: left;
+	text-align: center;
+}
+#menu > li > ul {
+	display: none;
+}
+#menu > li:hover > ul {
+	display: block;
 }
