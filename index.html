@@ -29,12 +29,30 @@
 
 	<body>
 		<div class="navbar">
-			<div id="#dropdownMenu">
-				<img src="./img/menu.png" />
-			</div>
+			<input type="checkbox" id="btn-menu" />
+
+			<label for="btn-menu"><img src="./img/menu.png" /></label>
 			<div class="logo">
-				<img src="./img/logo_lyracons.png" />
+				<img src="./img/lyracons_logo.png" />
 			</div>
+			<nav class="responsiveMenu">
+				<ul style="margin: 0 0 0 20px">
+					<li>
+						<button>MENU ITEM 1</button>
+					</li>
+					<li>
+						<button onclick="deleteProducts();">MENU ITEM 2</button>
+					</li>
+					<li>
+						<button onmouseover="sidebarChange();">
+							MENU ITEM 3
+						</button>
+					</li>
+					<li>
+						<button onclick="textInSidebar();">MENU ITEM 4</button>
+					</li>
+				</ul>
+			</nav>
 			<ul id="menu">
 				<li>
 					<button>MENU ITEM 1</button>
@@ -55,6 +73,7 @@
 				</li>
 			</ul>
 		</div>
+
 		<div id="container">
 			<div id="sidebar"></div>
 			<div id="products">
